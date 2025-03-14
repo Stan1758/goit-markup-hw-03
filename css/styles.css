@@ -288,6 +288,7 @@ color: var(--navy-blue);
   color: var(--navy-blue);
   text-transform: capitalize;
   margin-bottom: 72px;
+  margin-top: 120px;
 }
 
 .portfolio-name {
@@ -306,16 +307,20 @@ color: var(--navy-blue);
   color: var(--slate);
 }
 .portfolio-list {
-padding: 32px 16px;
 border-bottom: 1px solid var(--cornflower);
 border-left: 1px solid var(--cornflower);
 border-right: 1px solid var(--cornflower);
 overflow: hidden;
+margin-bottom: 120px;
 }
 
 .img-portfolio {
   width: 100%;
 display: block;
+}
+
+.name-content {
+  padding: 32px 16px;
 }
 /* #endregion Portfolio*/
 
