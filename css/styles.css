@@ -42,9 +42,9 @@ img {
 
 .container {
   width: 1158px;
-  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -261,11 +261,9 @@ address {
 
 .list-team {
   background-color: #ffffff;
-  width: calc((100 % - 72 px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
-}
-.img-list {
-  width: calc((100% - 72px) / 4);
+  overflow: hidden;
 }
 
 .name-text-container {
@@ -365,6 +363,7 @@ address {
 .footer-page .container {
   display: block;
   width: 264px;
+  margin: 0;
 }
 
 .footer-text {
