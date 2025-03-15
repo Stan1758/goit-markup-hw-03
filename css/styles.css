@@ -40,13 +40,6 @@ img {
   display: block;
 }
 
-.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -61,6 +54,13 @@ img {
 }
 
 /* #region header */
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -81,10 +81,6 @@ img {
   justify-content: space-between;
   width: 261px;
   padding: 0;
-}
-
-.page-header .container {
-  margin-left: 0;
 }
 
 .header-adress-list {
@@ -201,10 +197,6 @@ address {
 .features {
   padding: 120px 0;
 }
-.features .container {
-  padding-left: 156px;
-  padding-right: 156px;
-}
 
 .features-list {
   display: flex;
@@ -212,7 +204,7 @@ address {
   padding-left: 0;
 }
 .features-list-item {
-  width: calc((100% - 3 * 24px) / 3);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-subtitle {
@@ -261,7 +253,7 @@ address {
 
 .list-team {
   background-color: #ffffff;
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   overflow: hidden;
 }
